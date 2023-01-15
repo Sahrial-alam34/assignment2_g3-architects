@@ -213,7 +213,7 @@ nav li {
     position: relative;
 }
 
-.images-card {
+.image-card {
     width: 100%;
 }
 
@@ -368,27 +368,56 @@ nav li {
 
 /* responsive styles */
 @media screen and (max-width:576px) {
-    .header {
-        background-color: #FFFFFF
-    }
-
-    nav {
-
+    nav,ul,.know-about,.features,.title-part,.box-card,.box-cards,.sponsor-images{
         flex-direction: column;
-    }
+        gap:20px;
+        padding: 10px 20px ;
+     }
+     .banner-description,.know-about-description,.know-about-sub-title,.feature-pera,.feature-card,.feature-card-desp,.images-card,.achievement-facts,.architect-program,.sponsor-description,.copywrite,.banner-sub-title{
+        height: 175px;
+        width: 400px;
+     }
+     .banner-description{
+        padding: 0;
+        margin: 0;
+     }
 
-    .know-about {
-        flex-direction: column;
-    }
-
-    .know-about-images {
-        grid-template-columns: repeat(1, 1fr);
-        gap: 10px
-    }
-
-    .know-about img {
+     .know-about-images,.architect-program-videos{
+        grid-template-columns: repeat(1,1fr);
         width: 100%;
-    }
-
-
+    
+     }
+     .know-about-description{
+        padding: 0;
+        text-align: center;
+     }
+     .features{
+        margin-top: 200px;
+     }
+     .feature-description{
+        padding: 0;
+        margin: 0;
+     }
+     .btn-year{
+        top:80%;
+        padding: 0;
+     }
+     .images-card{
+        margin-bottom: 850px;
+     }
+     .sponsor-description-title{
+        margin-left: 60px;
+     }
+     .sponsor-description-sub-title{
+        padding: 0;
+        margin-left: 20px;
+     }
+     .sponsor-images{
+        margin-left: 200px;
+     }
+     .sponsor-image{
+        margin-bottom:50px;
+     }
+     
+    
 }
