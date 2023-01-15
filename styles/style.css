@@ -259,9 +259,10 @@ nav li {
     color: #727272;
 
 }
-.box-cards{
+
+.box-cards {
     display: flex;
-    
+
 }
 
 .box-card {
@@ -273,7 +274,8 @@ nav li {
     margin-left: 150px;
 
 }
-.box-card:hover{
+
+.box-card:hover {
     transform: rotate(90deg);
 }
 
@@ -282,21 +284,87 @@ nav li {
     justify-content: center;
     width: 169px;
 }
-.box-card-each img{
+
+.box-card-each img {
     padding: 30px 30px 10px 60px;
 }
-.box-card h3{
+
+.box-card h3 {
     color: #424242;
     text-align: center;
 }
-.box-card p{
-    
+
+.box-card p {
+
     text-align: center;
-    color:#727272;
+    color: #727272;
 }
 
+/* architect section */
+.architect-program-title,
+.sponsor-description-title {
+    text-align: center;
+    margin-top: 30px;
+    color: #131313;
+    font-size: 45px;
+    margin-bottom: 20px;
+}
 
+.architect-program-videos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-left: 40px;
 
+}
+
+.architect-program-videos .video {
+    margin-bottom: 20px;
+}
+
+/* footer section */
+
+.sponsor-description-sub-title {
+    text-align: center;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    width: 542px;
+    padding-left: 450px;
+}
+
+.sponsor-images {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.sponsor-image {
+
+    filter: grayscale(1);
+    margin-right: 70px;
+    width: 153.33px;
+    height: 50px;
+}
+
+.copywrite {
+    
+    width: 1100px;
+    height: 100px;
+    background: #FFF4E7;
+    border-radius: 8px;
+    margin-left: 170px;
+    margin-bottom: 100px;
+    margin-top: 60px;
+}
+
+.copywrite p{
+    color: #424242;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 40px;
+    
+}
 
 /* responsive styles */
 @media screen and (max-width:576px) {
